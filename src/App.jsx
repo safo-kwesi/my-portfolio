@@ -4,9 +4,7 @@ function App() {
   return (
     <main>
       <nav className="navbar">
-        <div className="logo">
-          Kwesi<span>.</span>
-        </div>
+        <div className="logo">Ɛscanor<span>.</span></div>
 
         <div className="nav-links">
           <a href="#about">About</a>
@@ -18,33 +16,27 @@ function App() {
 
       <section className="hero-section">
         <div className="hero-content">
-          <p className="eyebrow">UPCOMING DEVELOPER</p>
+          <p className="eyebrow">HELLO, I'M</p>
 
           <h1>
-            Kwesi<span>.</span>
+            Ɛscanor
+            <span>.</span>
           </h1>
 
-          <h2>Learning. Building. Improving.</h2>
+          <h2>Developer & Problem Solver</h2>
 
           <p className="hero-text">
-            I'm an upcoming developer passionate about technology,
-            programming and building useful things. I'm currently
-            developing my skills and turning what I learn into real
-            projects.
+            I build websites, applications and digital tools while constantly
+            learning new technologies and turning ideas into working projects.
           </p>
 
           <div className="hero-buttons">
-            <a href="#about" className="primary-btn">
-              About Me
+            <a href="#projects" className="primary-btn">
+              View My Work
             </a>
 
-            <a
-              href="https://github.com/safo-kwesi"
-              target="_blank"
-              rel="noreferrer"
-              className="secondary-btn"
-            >
-              GitHub
+            <a href="#contact" className="secondary-btn">
+              Contact Me
             </a>
           </div>
         </div>
@@ -59,11 +51,15 @@ function App() {
           <div className="code">
             <p>
               <span className="purple">const</span>{' '}
-              <span className="blue">kwesi</span> = {'{'}
+              <span className="blue">developer</span> = {'{'}
             </p>
 
             <p className="indent">
-              role: <span className="green">"Upcoming Developer"</span>,
+              name: <span className="green">"Ɛscanor"</span>,
+            </p>
+
+            <p className="indent">
+              focus: <span className="green">"Web Development"</span>,
             </p>
 
             <p className="indent">
@@ -71,11 +67,7 @@ function App() {
             </p>
 
             <p className="indent">
-              building: <span className="green">true</span>,
-            </p>
-
-            <p className="indent">
-              improving: <span className="green">"every day"</span>
+              coffee: <span className="green">"always"</span>
             </p>
 
             <p>{'}'}</p>
@@ -86,25 +78,24 @@ function App() {
       <section id="about" className="section">
         <p className="section-label">01 — ABOUT</p>
 
-        <h2>I'm still becoming.</h2>
+        <h2>Who I am</h2>
 
         <p className="section-text">
-          I'm currently learning and developing my skills in modern
-          web development. Rather than claiming to know everything,
-          I'm focused on learning the fundamentals, building projects
-          and improving with every step.
+          I'm a developer who enjoys building things and figuring out how they
+          work. I'm currently growing my skills in JavaScript, React and
+          modern web development while working on real projects.
         </p>
 
         <p className="section-text">
-          This portfolio is part of that journey — a place to document
-          what I'm learning and what I build along the way.
+          I enjoy solving problems, experimenting with technology and turning
+          ideas into useful digital experiences.
         </p>
       </section>
 
       <section id="skills" className="section">
         <p className="section-label">02 — SKILLS</p>
 
-        <h2>What I'm learning</h2>
+        <h2>What I work with</h2>
 
         <div className="skills-grid">
           <div className="skill">HTML</div>
@@ -119,78 +110,104 @@ function App() {
       <section id="projects" className="section">
         <p className="section-label">03 — PROJECTS</p>
 
-        <h2>Projects are coming.</h2>
+        <h2>Things I've built</h2>
 
-        <p className="section-text">
-          I'm currently learning and building. As I complete projects,
-          I'll add them here with their source code and live demos.
-        </p>
+        <div className="projects-grid">
+          <article className="project-card">
+            <div className="project-number">01</div>
 
-        <div className="coming-soon">
-          <div className="coming-icon">
-            &lt;/&gt;
-          </div>
+            <h3>My Portfolio</h3>
 
+<<<<<<< HEAD
           <div>
             <span className="coming-label">CURRENT STATUS</span>
             <h3>Building in progress</h3>
 
+=======
+>>>>>>> 244ad12 (upgrade)
             <p>
-              New projects will appear here as I build and complete them.
+              A personal portfolio website built with React to showcase my
+              skills, projects and experience.
             </p>
-          </div>
 
-          <span className="status-dot"></span>
+            <div className="project-tech">
+              <span>React</span>
+              <span>CSS</span>
+              <span>Vite</span>
+            </div>
+
+            <a href="#" className="project-link">
+              View Project →
+            </a>
+          </article>
+
+          <article className="project-card">
+            <div className="project-number">02</div>
+
+            <h3>Entity 4.5</h3>
+
+            <p>
+              An AI-powered Telegram bot project focused on conversational AI,
+              automation and useful digital tools.
+            </p>
+
+            <div className="project-tech">
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>AI</span>
+            </div>
+
+            <a href="#" className="project-link">
+              View Project →
+            </a>
+          </article>
+
+          <article className="project-card">
+            <div className="project-number">03</div>
+
+            <h3>NullSec Kit</h3>
+
+            <p>
+              A web-based security toolkit interface designed around useful
+              reconnaissance and web analysis utilities.
+            </p>
+
+            <div className="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a href="#" className="project-link">
+              View Project →
+            </a>
+          </article>
         </div>
       </section>
 
       <section id="contact" className="contact-section">
-        <p className="section-label">04 — CONNECT</p>
+        <p className="section-label">04 — CONTACT</p>
 
-        <h2>Let's connect.</h2>
+        <h2>Let's build something.</h2>
 
         <p>
-          You can find my work on GitHub or reach me through Telegram.
+          Have an idea, project or something you want to build? Let's talk.
         </p>
 
-        <div className="hero-buttons">
-          <a
-            href="https://github.com/safo-kwesi"
-            target="_blank"
-            rel="noreferrer"
-            className="primary-btn"
-          >
-            GitHub
-          </a>
-
-          <a
-            href="https://t.me/Sage_services"
-            target="_blank"
-            rel="noreferrer"
-            className="secondary-btn"
-          >
-            Telegram
-          </a>
-        </div>
+        <a href="mailto:safok5538@gmail.com" className="primary-btn">
+          Get In Touch
+        </a>
       </section>
 
       <footer>
-        <p>© 2026 Kwesi. Still learning. Still building.</p>
+        <p>© 2026 Ɛscanor. Built with React.</p>
 
         <div>
-          <a
-            href="https://github.com/safo-kwesi"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/safo-kwesi" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-
-          <a
-            href="https://t.me/Sage_services"
-            target="_blank"
-            rel="noreferrer"
-          >
+            Telegram
+          <a href="https://t.me/Sage_services" target="_blank" rel="noopener noreferrer">
             Telegram
           </a>
         </div>
