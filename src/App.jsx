@@ -208,7 +208,6 @@ function App() {
           </a>
             Telegram
           <a href="https://t.me/Sage_services" target="_blank" rel="noopener noreferrer">
-            Telegram
           </a>
         </div>
       </footer>
