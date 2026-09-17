@@ -3,7 +3,6 @@ import './App.css'
 function App() {
   return (
     <main>
-      {/* Navigation */}
       <nav className="navbar">
         <div className="logo">
           Kwesi<span>.</span>
@@ -17,7 +16,6 @@ function App() {
         </div>
       </nav>
 
-      {/* Hero */}
       <section className="hero-section">
         <div className="hero-content">
           <p className="eyebrow">UPCOMING DEVELOPER</p>
@@ -51,7 +49,6 @@ function App() {
           </div>
         </div>
 
-        {/* Developer Card */}
         <div className="hero-card">
           <div className="card-top">
             <span></span>
@@ -86,7 +83,6 @@ function App() {
         </div>
       </section>
 
-      {/* About */}
       <section id="about" className="section">
         <p className="section-label">01 — ABOUT</p>
 
@@ -105,7 +101,6 @@ function App() {
         </p>
       </section>
 
-      {/* Skills */}
       <section id="skills" className="section">
         <p className="section-label">02 — SKILLS</p>
 
@@ -121,7 +116,6 @@ function App() {
         </div>
       </section>
 
-      {/* Projects */}
       <section id="projects" className="section">
         <p className="section-label">03 — PROJECTS</p>
 
@@ -140,6 +134,7 @@ function App() {
           <div>
             <span className="coming-label">CURRENT STATUS</span>
             <h3>Building in progress</h3>
+
             <p>
               New projects will appear here as I build and complete them.
             </p>
@@ -149,7 +144,6 @@ function App() {
         </div>
       </section>
 
-      {/* Contact */}
       <section id="contact" className="contact-section">
         <p className="section-label">04 — CONNECT</p>
 
@@ -180,7 +174,6 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer>
         <p>© 2026 Kwesi. Still learning. Still building.</p>
 
