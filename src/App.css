@@ -27,7 +27,7 @@ body {
   line-height: 1.6;
 }
 
-body::selection {
+::selection {
   background: var(--accent);
   color: var(--bg);
 }
@@ -646,3 +646,20 @@ footer p {
     align-items: flex-start;
   }
 }
+
+.page-section {
+  min-height: 650px;
+}
+
+.contact-details {
+  margin-top: 55px;
+}
+
+.contact-details strong {
+  color: var(--text);
+}
+
+.back-btn {
+  margin-top: 30px;
+}
+
